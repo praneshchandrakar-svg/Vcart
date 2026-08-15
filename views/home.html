@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-pt-20">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/output.css">
+</head>
+<body class="bg-zinc-200 ">
+    <!-- Logo NavBar -->
+    <div class="navbar-01 p-1 px-7 flex items-center  w-full gap-2 bg-teal-200 h-20">
+        <div class="logo basis-1/5 flex items-center">
+            <img src="/image/Vcart.png" class="w-12 h-12 drop-shadow-[0_0_1px_#000]">
+        </div>
+        <div class="search-bar w-full basis-4/5 flex item">
+            <input type="text" class="bg-white p-1 pl-4 outline-1 outline-slate-200 drop-shadow-[0_0_1px_#000] border-none w-full rounded-xs border-red-500  text-gray-600" placeholder="&#128269">
+        </div>
+    </div>
+    <!-- Address Navbar -->
+    <div class="navbar-02 p-4 flex items-center  w-full bg-teal-200 h-8">
+        <div class="address flex items-center gap-1 bg-zinc-200 w-full p-1 rounded-xs">
+            <span class="flex items-center justify-center gap-2 text-black font-semibold pr-2 text-xs"><img src="/image/home clicked.png"  class="w-4 h-4">Home</span>
+            <p class="text-zinc-600 text-xs"> Matri chhaya mungeli road lormi</p>
+        </div>
+    </div>
+    <!-- Sticky Navbar -->
+    <div class="navbar-03 sticky top-0 p-2 px-5 flex items-center  w-full gap-2 bg-teal-200 h-18 overflow-hidden overflow-x-scroll no-scrollbar shadow-[0_4px_5px_-1px_#000] z-40">
+        <div class="nav-links flex justify-evenly gap-3 w-full">
+            <div class="home flex items-center  flex-col justify-center gap-1 active p-1 rounded-xs shrink-0">
+                <div class="icons"><img src="/image/home (2).png"  class="w-4 h-4"></div>
+                <p class="text-xs">For You</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/fashion.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Fashion</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/electronic.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Electronic</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/Lamp.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Appliances</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/phone.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Phones</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/sports.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Sports</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/toy.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Toy</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/books.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Books</p>
+            </div>
+            <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                <div class="icons"><img src="/image/liipstick.png"  class="w-4 h-4"></div>
+                <p class="text-xs">Beauty</p>
+            </div>
+        </div>
+    </div>
+    <!-- Body -->
+    <header class="px-6 py-5 mb-50 flex-col flex items-center justify-center gap-10 w-full h-full overflow-hidden">
+        <!-- Banner Container -->
+         <div class="banner-container flex flex-col gap-2">
+            <!-- Banner Section -->
+            <div class="slider  w-100 h-50 overflow-hidden sm:overflow-visible md:overflow-visible 2xl:overflow-visible">
+                <div class="slides w-full h-full flex duration-500 gap-[10%]">
+                    <img src="/image/banner1.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner2.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner3.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner4.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner5.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner6.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner7.webp" class="images min-w-full object-fill rounded-2xl block">
+                    <img src="/image/banner8.webp" class="images min-w-full object-fill rounded-2xl block">
+                </div>
+            </div>
+            <!-- Indicator Section -->
+            <div class="bars gap-2 flex items-center justify-center ">
+            </div>
+        </div>
+        <!-- Recently View Product Container -->
+        <div class="recent-container bg-linear-to-br from-green-500 to-green-200  w-full h-50 rounded-2xl shadow-2xs flex flex-col overflow-x-scroll overflow-y-hidden no-scrollbar">
+            <div class="recent-heading p-3 sticky left-0 top-0">
+                <h2 class="text-1xl font-bold font-sans">Pawan , still looking for these?</h2>
+            </div>
+            <div class="recent-product p-2 ml-5 flex items-center gap-5">
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>
+                <div class="product bg-white w-25 p-1 flex items-center justify-center flex-col h-auto shrink-0 rounded-2xl">
+                    <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                    <div class="brand-name text-[10px] text-slate-600 mt-1">Apple</div>
+                    <div class="category font-bold text-[11px]">Mobile</div>
+                </div>                
+            </div>
+        </div>
+        <!-- Top Selling Products -->
+        <div class="top-selling-container relative bg-linear-to-b from-orange-600 to-orange-200  w-full h-50 rounded-2xl shadow-2xs flex flex-col overflow-x-scroll overflow-y-hidden no-scrollbar">
+            <div class="top-selling-heading p-2 ml-4 flex justify-between items-center sticky top-0 left-4">
+                <h2 class="text-1xl font-bold font-sans">Top Selling Products</h2>
+                <img src="/image/Elegant.png" class="w-50 absolute right-0 -top-6 -z-0">
+            </div>
+            <div class="top-product p-1 ml-5 flex items-center gap-5">
+                <div class="product  flex items-center justify-center flex-col">
+                    <div class="top-product-image bg-white w-22 p-1 h-30 shrink-0 rounded-2xl flex items-center justify-center relative">
+                        <img src="/image/3bag 1.png" class="w-20 h-20 object-contain">
+                        <div class="range-detail absolute bottom-0 bg-orange-600 w-full h-1/5 rounded-b-2xl overflow-hidden flex items-center justify-center">
+                            <p class="text-[11px] text-white font-semibold">From $10,400</p>
+                        </div>
+                    </div>
+                    <div class="category text-[13px]">Best-selling Mobiles</div>
+                </div>         
+            </div>
+        </div>
+        <!-- Mobile window -->
+        <div class="mobile-window-container bg-linear-to-b from-purple-400 to-white  w-full h-auto rounded-2xl shadow-2xs flex flex-col relative">
+            <div class="top-selling-heading p-2 ml-4 flex justify-between items-center">
+                <h2 class="text-1xl font-bold">Top Mobiles</h2>
+                <img src="/image/Elegant.png" class="w-50 absolute right-0 -top-6 -z-0">
+            </div>
+            <div class="product-row flex flex-wrap p-2">
+                <div class="mobile-product flex flex-col p-1 basis-1/2 z-0">
+                    <div class="mobile-img bg-white p-1 flex items-center justify-center"><img src="/image/3bag 1.png" class="w-30 h-30 object-contain"></div>
+                    <h1 class="font-semibold text-center text-xs flex gap-1 items-center">Realme<p class="font-normal text-[10px]">Good Camera Phone </p></h1>
+                    <div class="price font-semibold text-xs text-start">$2000</div>
+                </div>
+                <div class="mobile-product flex flex-col p-1 basis-1/2 z-0">
+                    <div class="mobile-img bg-white p-1 flex items-center justify-center"><img src="/image/3bag 1.png" class="w-30 h-30 object-contain"></div>
+                    <h1 class="font-semibold text-center text-xs flex gap-1 items-center">Realme<p class="font-normal text-[10px]">Good Camera Phone </p></h1>
+                    <div class="price font-semibold text-xs text-start">$2000</div>
+                </div>
+                <div class="mobile-product flex flex-col p-1 basis-1/2">
+                    <div class="mobile-img bg-white p-1 flex items-center justify-center"><img src="/image/3bag 1.png" class="w-30 h-30 object-contain"></div>
+                    <h1 class="font-semibold text-center text-xs flex gap-1 items-center">Realme<p class="font-normal text-[10px]">Good Camera Phone </p></h1>
+                    <div class="price font-semibold text-xs text-start">$2000</div>
+                </div>
+                <div class="mobile-product flex flex-col p-1 basis-1/2">
+                    <div class="mobile-img bg-white p-1 flex items-center justify-center"><img src="/image/3bag 1.png" class="w-30 h-30 object-contain"></div>
+                    <h1 class="font-semibold text-center text-xs flex gap-1 items-center">Realme<p class="font-normal text-[10px]">Good Camera Phone </p></h1>
+                    <div class="price font-semibold text-xs text-start">$2000</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bottom Navbar -->
+    <div class="navbar-03 fixed bottom-0 p-2 px-7 flex items-center w-full gap-2 bg-white h-20 overflow-hidden overflow-x-scroll no-scrollbar shadow-[0_-1px_5px_#000]">
+            <div class="nav-links w-full flex items-center justify-between  md:justify-center gap-10">
+                <div class="home flex items-center  flex-col justify-center gap-1 drop-shadow-black">
+                    <div class="icons"><img src="/image/home clicked.png"  class="w-4 h-4" alt="Home"></div>
+                    <p class="text-xs">Home</p>
+                </div>
+                <div class="play flex items-center  flex-col justify-center gap-1 p-2">
+                    <div class="icons"><img src="/image/play.png"  class="w-4 h-4"></div>
+                    <p class="text-xs">Play</p>
+                </div>
+                <div class="categories flex items-center  flex-col justify-center gap-1 p-2">
+                    <div class="icons"><img src="/image/app.png"  class="w-4 h-4"></div>
+                    <p class="text-xs">Categories</p>
+                </div>
+                <div class="account flex items-center  flex-col justify-center gap-1 p-2">
+                    <div class="icons"><img src="/image/User.png"  class="w-4 h-4"></div>
+                    <p class="text-xs">Account</p>
+                </div>
+                <div class="product flex items-center  flex-col justify-center gap-1 p-2">
+                    <div class="icons"><img src="/image/cart.png"  class="w-6 h-6"></div>
+                    <p class="text-xs">Cart</p>
+                </div>
+            </div>
+    </div>
+
+    <!-- Script For Banner -->
+     <script>
+        let progress_container = document.querySelector(".bars");
+        let slides = document.querySelector(".slides");
+        let images = document.querySelectorAll(".images");
+        let index = 0;
+        let duration = 3000;
+
+        images.forEach(()=>{
+            const bar = document.createElement("div");
+            bar.classList.add("bar");
+
+            const progress = document.createElement("span");
+            bar.appendChild(progress)
+            progress_container.appendChild(bar)
+        });
+        const bars = document.querySelectorAll(".bar");
+        function nextSlide(){
+            bars.forEach(bar=>{
+                bar.classList.remove("active-bar");
+                bar.querySelector("span").style.width = "0";
+            });
+
+            index++;
+
+            if(index >= images.length){
+                index = 0;
+            }
+            slides.style.transform = `translateX(-${index * 110}%)`
+
+            bars[index].classList.add("active-bar");
+        }
+        bars[0].classList.add("active-bar");
+
+        setInterval(nextSlide, duration)
+     </script>
+</body>
+</html>
