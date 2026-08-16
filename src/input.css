@@ -17,7 +17,11 @@
 @utility bar{
     @apply w-1 h-1 rounded-2xl overflow-hidden duration-500 transition-all;
 }
+
 @layer utilities{
+    .rounded-my{
+        border-radius: 4px;
+    }
     .bar{
         width: 10px;
         height: 4px;
