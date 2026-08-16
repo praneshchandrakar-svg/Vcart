@@ -47,4 +47,16 @@
             width: 100%;
         }
     }
+    .buy-effect{
+        animation: reflect 3s linear infinite;
+    }
+        @keyframes reflect {
+        from{
+            transform: translateX(-100%);
+        }
+        to{
+            transform: translateX(200%);
+        }
+    }
+
 }
